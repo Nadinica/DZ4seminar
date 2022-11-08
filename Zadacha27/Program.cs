@@ -33,10 +33,11 @@ int [] Array(int value)
     }
     return arrey;
 }
-int Summa (int value) 
+Array(value);
+int Summa (int [] Array) 
 {
-    int sum = 0;
-    for (int i = 0; i < value.Length; i++)
+        int sum = 0;
+    for (int i = 0; i < arrey.Length; i++)
     {
         sum=sum+i;
     }
