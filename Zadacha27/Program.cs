@@ -43,9 +43,6 @@ int Summa (int [] arrey) // 3)суммировать числа массива;
     }
     return sum;
 }
-//Summa(arrey);
-int PrintResult(int sum)
-{
-   Console.WriteLine(sum);
-}
-PrintResult(sum);
+int arr[]=Array(Number);
+int sum =Summa(arr);
+Console.WriteLine(sum);
