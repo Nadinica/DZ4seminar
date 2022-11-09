@@ -1,5 +1,5 @@
 ﻿// Задача 27: Напишите программу, которая принимает на вход число и 
-//выдаёт сумму цифр в числе.ит число A в целую степень B.
+//выдаёт сумму цифр в числе.
 // 452->11
 //82->10
 // 9012->12
@@ -22,7 +22,7 @@ int PoiskCount(int Number)
 }
 int count1 = PoiskCount(Number);
 Console.WriteLine(count1);
-int [] Array(int value)
+int [] Array(int value)  //2)Число разложить на массив;
 {
     int count = PoiskCount(Number)-1;
     int[]arrey = new int [count+1];
@@ -33,8 +33,8 @@ int [] Array(int value)
     }
     return arrey;
 }
-Array(value);
-int Summa (int [] Array) 
+//Array(arrey);
+int Summa (int [] arrey) // 3)суммировать числа массива;
 {
         int sum = 0;
     for (int i = 0; i < arrey.Length; i++)
@@ -43,4 +43,9 @@ int Summa (int [] Array)
     }
     return sum;
 }
-Console.WriteLine(Summa(sum));
+//Summa(arrey);
+int PrintResult(int sum)
+{
+   Console.WriteLine(sum);
+}
+PrintResult(sum);
