@@ -43,6 +43,7 @@ int Summa (int [] arrey) // 3)суммировать числа массива;
     return sum;
 }
 Console.Write("Сумма цифр в числе ");
+// Печать массива;
 int [] arrey = Array (value);
 int size = arrey.Length;
 int index = 0;
